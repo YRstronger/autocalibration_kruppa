@@ -1,0 +1,100 @@
+﻿  AutoCalibra.cpp
+c:\program files (x86)\ceres\include\ceres\gradient_checker.h(87): warning C4251: “ceres::GradientChecker::ProbeResults::residuals”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 struct“ceres::GradientChecker::ProbeResults”的客户端使用
+  e:\3rd party\eigen 3_3_7\eigen\src\core\matrix.h(449): note: 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+c:\program files (x86)\ceres\include\ceres\gradient_checker.h(97): warning C4251: “ceres::GradientChecker::ProbeResults::jacobians”: class“std::vector<ceres::Matrix,std::allocator<_Ty>>”需要有 dll 接口由 struct“ceres::GradientChecker::ProbeResults”的客户端使用
+          with
+          [
+              _Ty=ceres::Matrix
+          ]
+  c:\program files (x86)\ceres\include\ceres\gradient_checker.h(97): note: 参见“std::vector<ceres::Matrix,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=ceres::Matrix
+          ]
+c:\program files (x86)\ceres\include\ceres\gradient_checker.h(100): warning C4251: “ceres::GradientChecker::ProbeResults::local_jacobians”: class“std::vector<ceres::Matrix,std::allocator<_Ty>>”需要有 dll 接口由 struct“ceres::GradientChecker::ProbeResults”的客户端使用
+          with
+          [
+              _Ty=ceres::Matrix
+          ]
+  c:\program files (x86)\ceres\include\ceres\gradient_checker.h(97): note: 参见“std::vector<ceres::Matrix,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=ceres::Matrix
+          ]
+c:\program files (x86)\ceres\include\ceres\gradient_checker.h(103): warning C4251: “ceres::GradientChecker::ProbeResults::numeric_jacobians”: class“std::vector<ceres::Matrix,std::allocator<_Ty>>”需要有 dll 接口由 struct“ceres::GradientChecker::ProbeResults”的客户端使用
+          with
+          [
+              _Ty=ceres::Matrix
+          ]
+  c:\program files (x86)\ceres\include\ceres\gradient_checker.h(97): note: 参见“std::vector<ceres::Matrix,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=ceres::Matrix
+          ]
+c:\program files (x86)\ceres\include\ceres\gradient_checker.h(106): warning C4251: “ceres::GradientChecker::ProbeResults::local_numeric_jacobians”: class“std::vector<ceres::Matrix,std::allocator<_Ty>>”需要有 dll 接口由 struct“ceres::GradientChecker::ProbeResults”的客户端使用
+          with
+          [
+              _Ty=ceres::Matrix
+          ]
+  c:\program files (x86)\ceres\include\ceres\gradient_checker.h(97): note: 参见“std::vector<ceres::Matrix,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=ceres::Matrix
+          ]
+c:\program files (x86)\ceres\include\ceres\gradient_checker.h(113): warning C4251: “ceres::GradientChecker::ProbeResults::error_log”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“ceres::GradientChecker::ProbeResults”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\ceres\include\ceres\gradient_checker.h(143): warning C4251: “ceres::GradientChecker::local_parameterizations_”: class“std::vector<const ceres::LocalParameterization *,std::allocator<_Ty>>”需要有 dll 接口由 class“ceres::GradientChecker”的客户端使用
+          with
+          [
+              _Ty=const ceres::LocalParameterization *
+          ]
+  c:\program files (x86)\ceres\include\ceres\gradient_checker.h(78): note: 参见“std::vector<const ceres::LocalParameterization *,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=const ceres::LocalParameterization *
+          ]
+c:\program files (x86)\ceres\include\ceres\gradient_checker.h(145): warning C4251: “ceres::GradientChecker::finite_diff_cost_function_”: class“std::unique_ptr<ceres::CostFunction,std::default_delete<_Ty>>”需要有 dll 接口由 class“ceres::GradientChecker”的客户端使用
+          with
+          [
+              _Ty=ceres::CostFunction
+          ]
+  c:\program files (x86)\ceres\include\ceres\conditioned_cost_function.h(92): note: 参见“std::unique_ptr<ceres::CostFunction,std::default_delete<_Ty>>”的声明
+          with
+          [
+              _Ty=ceres::CostFunction
+          ]
+c:\program files (x86)\ceres\include\ceres\gradient_problem.h(108): warning C4251: “ceres::GradientProblem::function_”: class“std::unique_ptr<ceres::FirstOrderFunction,std::default_delete<_Ty>>”需要有 dll 接口由 class“ceres::GradientProblem”的客户端使用
+          with
+          [
+              _Ty=ceres::FirstOrderFunction
+          ]
+  c:\program files (x86)\ceres\include\ceres\gradient_problem.h(108): note: 参见“std::unique_ptr<ceres::FirstOrderFunction,std::default_delete<_Ty>>”的声明
+          with
+          [
+              _Ty=ceres::FirstOrderFunction
+          ]
+c:\program files (x86)\ceres\include\ceres\gradient_problem.h(109): warning C4251: “ceres::GradientProblem::parameterization_”: class“std::unique_ptr<ceres::LocalParameterization,std::default_delete<_Ty>>”需要有 dll 接口由 class“ceres::GradientProblem”的客户端使用
+          with
+          [
+              _Ty=ceres::LocalParameterization
+          ]
+  c:\program files (x86)\ceres\include\ceres\local_parameterization.h(322): note: 参见“std::unique_ptr<ceres::LocalParameterization,std::default_delete<_Ty>>”的声明
+          with
+          [
+              _Ty=ceres::LocalParameterization
+          ]
+c:\program files (x86)\ceres\include\ceres\gradient_problem.h(110): warning C4251: “ceres::GradientProblem::scratch_”: class“std::unique_ptr<double [],std::default_delete<_Ty>>”需要有 dll 接口由 class“ceres::GradientProblem”的客户端使用
+          with
+          [
+              _Ty=double []
+          ]
+  c:\program files (x86)\ceres\include\ceres\gradient_problem.h(110): note: 参见“std::unique_ptr<double [],std::default_delete<_Ty>>”的声明
+          with
+          [
+              _Ty=double []
+          ]
+c:\program files (x86)\ceres\include\ceres\solver.h(794): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\program files (x86)\ceres\include\ceres\solver.h(799): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\program files (x86)\ceres\include\ceres\solver.h(802): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\program files (x86)\ceres\include\ceres\solver.h(809): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  ComputeF_keyframe.vcxproj -> E:\纵横袁睿工作\项目\单目拼接项目：自标定部分\程序\ComputeF_keyframe\ComputeF_keyframe _v5\bin\x64\Debug\ComputeF_keyframe.exe
